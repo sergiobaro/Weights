@@ -10,11 +10,15 @@
 		D94850D424EC49B2008B5AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94850D324EC49B2008B5AC5 /* AppDelegate.swift */; };
 		D94850D624EC49B2008B5AC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94850D524EC49B2008B5AC5 /* SceneDelegate.swift */; };
 		D94850D924EC49B2008B5AC5 /* Weigths.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D94850D724EC49B2008B5AC5 /* Weigths.xcdatamodeld */; };
-		D94850DB24EC49B2008B5AC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94850DA24EC49B2008B5AC5 /* ContentView.swift */; };
+		D94850DB24EC49B2008B5AC5 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94850DA24EC49B2008B5AC5 /* AppView.swift */; };
 		D94850DD24EC49B3008B5AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94850DC24EC49B3008B5AC5 /* Assets.xcassets */; };
-		D94850E024EC49B3008B5AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94850DF24EC49B3008B5AC5 /* Preview Assets.xcassets */; };
 		D94850E324EC49B3008B5AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94850E124EC49B3008B5AC5 /* LaunchScreen.storyboard */; };
 		D94850EE24EC49B4008B5AC5 /* WeigthsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94850ED24EC49B4008B5AC5 /* WeigthsTests.swift */; };
+		D94850FD24EC4B1E008B5AC5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94850FC24EC4B1E008B5AC5 /* MainView.swift */; };
+		D948510024EC4BD8008B5AC5 /* AddWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94850FF24EC4BD8008B5AC5 /* AddWeightView.swift */; };
+		D948510424EC4ECB008B5AC5 /* AddWeightPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D948510324EC4ECB008B5AC5 /* AddWeightPresenter.swift */; };
+		D948510724EC51BC008B5AC5 /* WeightsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D948510624EC51BC008B5AC5 /* WeightsRepository.swift */; };
+		D948510924EC55E0008B5AC5 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D948510824EC55E0008B5AC5 /* MainPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,18 @@
 		D94850D324EC49B2008B5AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D94850D524EC49B2008B5AC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D94850D824EC49B2008B5AC5 /* Weigths.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weigths.xcdatamodel; sourceTree = "<group>"; };
-		D94850DA24EC49B2008B5AC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D94850DA24EC49B2008B5AC5 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		D94850DC24EC49B3008B5AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D94850DF24EC49B3008B5AC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D94850E224EC49B3008B5AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D94850E424EC49B3008B5AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D94850E924EC49B4008B5AC5 /* WeigthsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeigthsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94850ED24EC49B4008B5AC5 /* WeigthsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeigthsTests.swift; sourceTree = "<group>"; };
 		D94850EF24EC49B4008B5AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D94850FC24EC4B1E008B5AC5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D94850FF24EC4BD8008B5AC5 /* AddWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightView.swift; sourceTree = "<group>"; };
+		D948510324EC4ECB008B5AC5 /* AddWeightPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightPresenter.swift; sourceTree = "<group>"; };
+		D948510624EC51BC008B5AC5 /* WeightsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightsRepository.swift; sourceTree = "<group>"; };
+		D948510824EC55E0008B5AC5 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,24 +89,13 @@
 		D94850D224EC49B2008B5AC5 /* Weigths */ = {
 			isa = PBXGroup;
 			children = (
-				D94850D324EC49B2008B5AC5 /* AppDelegate.swift */,
-				D94850D524EC49B2008B5AC5 /* SceneDelegate.swift */,
-				D94850DA24EC49B2008B5AC5 /* ContentView.swift */,
-				D94850DC24EC49B3008B5AC5 /* Assets.xcassets */,
-				D94850E124EC49B3008B5AC5 /* LaunchScreen.storyboard */,
+				D94850F924EC4AE3008B5AC5 /* App */,
+				D94850FA24EC4B0B008B5AC5 /* Modules */,
+				D948510524EC51AC008B5AC5 /* Repository */,
+				D94850F824EC4AD9008B5AC5 /* Resources */,
 				D94850E424EC49B3008B5AC5 /* Info.plist */,
-				D94850D724EC49B2008B5AC5 /* Weigths.xcdatamodeld */,
-				D94850DE24EC49B3008B5AC5 /* Preview Content */,
 			);
 			path = Weigths;
-			sourceTree = "<group>";
-		};
-		D94850DE24EC49B3008B5AC5 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D94850DF24EC49B3008B5AC5 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		D94850EC24EC49B4008B5AC5 /* WeigthsTests */ = {
@@ -108,6 +105,61 @@
 				D94850EF24EC49B4008B5AC5 /* Info.plist */,
 			);
 			path = WeigthsTests;
+			sourceTree = "<group>";
+		};
+		D94850F824EC4AD9008B5AC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D94850DC24EC49B3008B5AC5 /* Assets.xcassets */,
+				D94850E124EC49B3008B5AC5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D94850F924EC4AE3008B5AC5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D94850D324EC49B2008B5AC5 /* AppDelegate.swift */,
+				D94850D524EC49B2008B5AC5 /* SceneDelegate.swift */,
+				D94850DA24EC49B2008B5AC5 /* AppView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D94850FA24EC4B0B008B5AC5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D94850FE24EC4BCE008B5AC5 /* AddWeight */,
+				D94850FB24EC4B11008B5AC5 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D94850FB24EC4B11008B5AC5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D94850FC24EC4B1E008B5AC5 /* MainView.swift */,
+				D948510824EC55E0008B5AC5 /* MainPresenter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D94850FE24EC4BCE008B5AC5 /* AddWeight */ = {
+			isa = PBXGroup;
+			children = (
+				D94850FF24EC4BD8008B5AC5 /* AddWeightView.swift */,
+				D948510324EC4ECB008B5AC5 /* AddWeightPresenter.swift */,
+			);
+			path = AddWeight;
+			sourceTree = "<group>";
+		};
+		D948510524EC51AC008B5AC5 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D948510624EC51BC008B5AC5 /* WeightsRepository.swift */,
+				D94850D724EC49B2008B5AC5 /* Weigths.xcdatamodeld */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D94850E324EC49B3008B5AC5 /* LaunchScreen.storyboard in Resources */,
-				D94850E024EC49B3008B5AC5 /* Preview Assets.xcassets in Resources */,
 				D94850DD24EC49B3008B5AC5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,8 +264,13 @@
 			files = (
 				D94850D924EC49B2008B5AC5 /* Weigths.xcdatamodeld in Sources */,
 				D94850D424EC49B2008B5AC5 /* AppDelegate.swift in Sources */,
-				D94850DB24EC49B2008B5AC5 /* ContentView.swift in Sources */,
+				D94850DB24EC49B2008B5AC5 /* AppView.swift in Sources */,
+				D94850FD24EC4B1E008B5AC5 /* MainView.swift in Sources */,
+				D948510924EC55E0008B5AC5 /* MainPresenter.swift in Sources */,
+				D948510024EC4BD8008B5AC5 /* AddWeightView.swift in Sources */,
+				D948510724EC51BC008B5AC5 /* WeightsRepository.swift in Sources */,
 				D94850D624EC49B2008B5AC5 /* SceneDelegate.swift in Sources */,
+				D948510424EC4ECB008B5AC5 /* AddWeightPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Weigths/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = U45ZNT55FZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Weigths/Info.plist;
@@ -387,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Weigths/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = U45ZNT55FZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Weigths/Info.plist;

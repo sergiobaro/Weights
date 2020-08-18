@@ -1,14 +1,6 @@
-//
-//  ContentView.swift
-//  Weigths
-//
-//  Created by Sergio Baro on 18/08/2020.
-//  Copyright © 2020 Sergio Baro. All rights reserved.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct AppView: View {
     var body: some View {
         Text("Hello, World!")
     }
@@ -16,6 +8,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AppView()
     }
 }
